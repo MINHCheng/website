@@ -7,7 +7,7 @@ const Header = () => {
 
         <Navbar expand="md" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
             <Container>
-                <Nav.Link as={Link} to="/" style={{ color: 'whitesmoke' }}>
+                <Nav.Link as={Link} to="/website" style={{ color: 'whitesmoke' }}>
                     <Navbar.Brand to="/website" className="header" style={{ color: 'whitesmoke' }}>Minh Cheng</Navbar.Brand>
                 </Nav.Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
