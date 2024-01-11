@@ -8,6 +8,23 @@ const Project = () => {
             <Container className="Projects">
                 <Card className="ProjCard">
                     <CardBody>
+                        <h1 className="">Baddie-match</h1>
+                        <div className="badge">
+                            <Badge bg="secondary">React</Badge>
+                            <Badge bg="secondary">HTML</Badge>
+                            <Badge bg="secondary">CSS</Badge>
+                            <Badge bg="secondary">JavaScript</Badge>
+                        </div>
+                        <ul className="Project PersonalWebsite">
+                            <li>Understand HTML5 and CSS and its semantic elements.</li>
+                            <li>JSX syntax and how to use it in React components.</li>
+                            <li>Implementing navigation in a React application using React Router</li>
+                        </ul>
+                        <Card.Footer>December 1, 2023</Card.Footer>
+                    </CardBody>
+                </Card>
+                <Card className="ProjCard">
+                    <CardBody>
                         <h1 className="">Personal Website</h1>
                         <div className="badge">
                             <Badge bg="secondary">React</Badge>

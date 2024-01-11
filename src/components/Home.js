@@ -8,7 +8,7 @@ const Home = () => {
             <div className="Bigger-Container">
                 <Container className="Homepage firstContainer">
                     <h1 className="Summary">Hello, I'm Minh.</h1>
-                    <h1 className="Summary">I'm a Computer Engineer</h1>
+                    <h1 className="Summary">I'm a Computer Engineering Student</h1>
                     <div className="Summary AboutMe">I am a second year at the University of Waterloo, with experience in front end developing.</div>
                     <div className="Summary AboutMe">I value a balanced life of learning, exercising, and traveling.</div>
                 </Container>
@@ -23,7 +23,8 @@ const Home = () => {
                                     <Card.Title>Front End</Card.Title>
                                     <Card.Text>
                                         Adept at using React, Javascript, and HTML and CSS.
-                                        I have created a multitude of applications using this language.
+                                        I have experience through my past coop at Concatentate.inc, my personal website
+                                        and the varsity badminton team website.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -34,8 +35,20 @@ const Home = () => {
                                 <Card.Body>
                                     <Card.Title>Back End</Card.Title>
                                     <Card.Text>
-                                        Adept at using Javascript and I took a course 
-                                        on Java, Python, and C++ through Waterloo. 
+                                        I took a course in MySQL and Java. I utilized this practice in the badminton varsity app
+                                        where I handled databases and utilized RestAPI. 
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col key="idx"className="Card">
+                            <Card style={{ width: '15rem', height:'28rem' }}>
+                                <Card.Img variant="top" src="./images/python.png" />
+                                <Card.Body>
+                                    <Card.Title>Systems Programming</Card.Title>
+                                    <Card.Text>
+                                    I have experience in other languages such as JavaFX and Java through term work,
+                                    python, and C++ through ECE 150
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
