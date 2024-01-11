@@ -18,7 +18,7 @@ const Home = () => {
                     <Row xs={1} md={2} lg={3} className="g-3">
                         <Col key="idx" className="Card">
                             <Card style={{ width: '15rem', height:'28rem' }}>
-                                <Card.Img variant="top" className="Image1" />
+                                <Card.Img variant="top" className="./images/logo512.png" />
                                 <Card.Body>
                                     <Card.Title>Front End</Card.Title>
                                     <Card.Text>
