@@ -23,8 +23,7 @@ const Home = () => {
                                     <Card.Title>Front End</Card.Title>
                                     <Card.Text>
                                         Adept at using React, Javascript, and HTML and CSS.
-                                        I have experience through my past coop at Concatentate.inc, my personal website
-                                        and the varsity badminton team website.
+                                        I have experience through multiple projects which can be seen in project tab.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
