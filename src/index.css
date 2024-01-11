@@ -1,0 +1,96 @@
+/*                  NAVBAR               */
+.bg-body-tertiary {
+    background-color: #E5882C;
+    margin: 0 0 0 0;
+    padding: 0.6em 0;
+}
+
+.header {
+    display: flex;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.header-link {
+    margin-left: 1em;
+}
+
+@media (min-width: 768px) {
+    .header-link.item2 {
+        margin-left: 1em;
+    }
+
+    .header-link.item1 {
+        margin-right: .5em;
+    }
+
+}
+
+/*                  NAVBAR               */
+
+/*                HOMEPAGE                */
+.Homepage{
+    justify-content: center;
+    align-items: center;
+}
+.Bigger-Container {
+
+    background-image: url('/public/images/blueblue.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Homepage.firstContainer {
+    justify-content: center;
+    align-items: center;
+    display: inline-flexbox;
+    height: 50vh;
+    padding-top: 100px;
+
+}
+
+.Summary {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Summary.AboutMe {
+    font-weight:normal;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Skills {
+    justify-content:space-evenly;    
+    align-items: center;
+    display: flex;
+    margin: 50px;
+}
+
+
+/*                HOMEPAGE                */
+
+/*                PROJECTS                */
+.Projects{
+    padding: 50px;
+}
+
+.badge{
+    justify-content: space-between;
+    margin-right: 8px;
+}
+.ProjCard{
+    margin-top: 30px;
+}
+   
+
+/*                PROJECTS                */
+
+.ResumeContainer{
+    padding: 25px;
+}
