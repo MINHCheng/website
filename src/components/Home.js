@@ -17,7 +17,7 @@ const Home = () => {
                 <Container className="Skills Content">
                     <Row xs={1} md={2} lg={3} className="g-3">
                         <Col key="idx" className="Card">
-                            <Card style={{ width: '15rem', height:'28rem' }}>
+                            <Card style={{ width: '20rem', height:'28rem' }}>
                                 <Card.Img variant="top" src="./images/logo512.png" />
                                 <Card.Body>
                                     <Card.Title>Front End</Card.Title>
@@ -29,7 +29,7 @@ const Home = () => {
                             </Card>
                         </Col>
                         <Col key="idx"className="Card">
-                            <Card style={{ width: '15rem', height:'28rem'}}>
+                            <Card style={{ width: '20rem', height:'28rem'}}>
                                 <Card.Img variant="top" src="./images/Mysql_logo.png" style={{height: '238px'}}/>
                                 <Card.Body>
                                     <Card.Title>Back End</Card.Title>
@@ -41,7 +41,7 @@ const Home = () => {
                             </Card>
                         </Col>
                         <Col key="idx"className="Card">
-                            <Card style={{ width: '15rem', height:'28rem' }}>
+                            <Card style={{ width: '20rem', height:'28rem' }}>
                                 <Card.Img variant="top" src="./images/python.png" />
                                 <Card.Body>
                                     <Card.Title>Systems Programming</Card.Title>
@@ -53,7 +53,7 @@ const Home = () => {
                             </Card>
                         </Col>
                         <Col key="idx"className="Card">
-                            <Card style={{ width: '15rem', height:'28rem' }}>
+                            <Card style={{ width: '20rem', height:'28rem' }}>
                                 <Card.Img variant="top" src="./images/Microsoft.png" />
                                 <Card.Body>
                                     <Card.Title>Other Software</Card.Title>
