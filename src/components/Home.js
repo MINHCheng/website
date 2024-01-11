@@ -30,7 +30,7 @@ const Home = () => {
                         </Col>
                         <Col key="idx"className="Card">
                             <Card style={{ width: '15rem', height:'28rem'}}>
-                                <Card.Img variant="top" src="./images/blueblue.jpg" />
+                                <Card.Img variant="top" src="./images/mysql.jpg" />
                                 <Card.Body>
                                     <Card.Title>Back End</Card.Title>
                                     <Card.Text>
@@ -42,7 +42,7 @@ const Home = () => {
                         </Col>
                         <Col key="idx"className="Card">
                             <Card style={{ width: '15rem', height:'28rem' }}>
-                                <Card.Img variant="top" src="./public/images/Microsoft.png" />
+                                <Card.Img variant="top" src="./images/Microsoft.png" />
                                 <Card.Body>
                                     <Card.Title>Other Software</Card.Title>
                                     <Card.Text>
