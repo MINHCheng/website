@@ -31,7 +31,7 @@ const Home = () => {
                         </Col>
                         <Col key="idx"className="Card">
                             <Card style={{ width: '15rem', height:'28rem'}}>
-                                <Card.Img variant="top" src="./images/mysql.jpg" />
+                                <Card.Img variant="top" src="./images/Mysql_logo.png" style={{height: '238px'}}/>
                                 <Card.Body>
                                     <Card.Title>Back End</Card.Title>
                                     <Card.Text>
