@@ -7,7 +7,7 @@ const Project = () => {
     return (
         <div className="">
             <Container className="Projects">
-                <Link to='https://github.com/uwbaddev/baddie-match'>
+                
                     <Card className="ProjCard">
                         <CardBody>
                             <h1 className="">Baddie-match</h1>
@@ -25,8 +25,7 @@ const Project = () => {
                             <Card.Footer>December 1, 2023</Card.Footer>
                         </CardBody>
                     </Card>
-                </Link>
-                <Link to='https://github.com/MINHCheng/web.github.io/tree/main'>
+              
                     <Card className="ProjCard">
                         <CardBody>
                             <h1 className="">Personal Website</h1>
@@ -43,7 +42,7 @@ const Project = () => {
                             <Card.Footer>November 21, 2023</Card.Footer>
                         </CardBody>
                     </Card>
-                </Link>
+                
                 <Card className="ProjCard">
                     <CardBody>
                         <h1 className="">Minesweeper</h1>
