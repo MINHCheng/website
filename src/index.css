@@ -42,6 +42,9 @@
     background-position: center;
     
 }
+.Image1 {
+    background-image: url('/public/images/Microsoft.png');
+}
 
 .Homepage.firstContainer {
     justify-content: center;
