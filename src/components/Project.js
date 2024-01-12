@@ -10,7 +10,7 @@ const Project = () => {
 
                 <Card className="ProjCard">
                     <CardBody>
-                        <Link to="/your-link" style={{ textDecoration: 'none', color: '#7D00AF' }}>
+                        <Link to="https://github.com/uwbaddev/baddie-match" style={{ textDecoration: 'none', color: '#7D00AF' }}>
                             <h1 className="">Baddie-match</h1>
                         </Link>
                         <div className="badge">
@@ -27,24 +27,24 @@ const Project = () => {
                         <Card.Footer>December 1, 2023</Card.Footer>
                     </CardBody>
                 </Card>
-
-                <Card className="ProjCard">
-                    <CardBody>
-                        <h1 className="">Personal Website</h1>
-                        <div className="badge">
-                            <Badge bg="secondary">React</Badge>
-                            <Badge bg="secondary">HTML</Badge>
-                            <Badge bg="secondary">CSS</Badge>
-                        </div>
-                        <ul className="Project PersonalWebsite">
-                            <li>Understand HTML5 and CSS and its semantic elements.</li>
-                            <li>JSX syntax and how to use it in React components.</li>
-                            <li>Implementing navigation in a React application using React Router</li>
-                        </ul>
-                        <Card.Footer>November 21, 2023</Card.Footer>
-                    </CardBody>
-                </Card>
-
+                <Link to="https://github.com/MINHCheng/website" style={{ textDecoration: 'none', color: '#7D00AF' }}>
+                    <Card className="ProjCard">
+                        <CardBody>
+                            <h1 className="">Personal Website</h1>
+                            <div className="badge">
+                                <Badge bg="secondary">React</Badge>
+                                <Badge bg="secondary">HTML</Badge>
+                                <Badge bg="secondary">CSS</Badge>
+                            </div>
+                            <ul className="Project PersonalWebsite">
+                                <li>Understand HTML5 and CSS and its semantic elements.</li>
+                                <li>JSX syntax and how to use it in React components.</li>
+                                <li>Implementing navigation in a React application using React Router</li>
+                            </ul>
+                            <Card.Footer>November 21, 2023</Card.Footer>
+                        </CardBody>
+                    </Card>
+                </Link >
                 <Card className="ProjCard">
                     <CardBody>
                         <h1 className="">Minesweeper</h1>
