@@ -6,7 +6,10 @@
 }
 
 body {
-    overflow: hidden;
+
+    margin: 0;
+
+
 }
 
 /*                  NAVBAR               */
@@ -48,8 +51,14 @@ body {
     font-family: var(--main-body-font);
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    /* padding: 3rem; */
     position: relative;
+    overflow: hidden;
+
+    margin: 0;
+    /* Ensure there's no margin */
+    padding: 0;
+    /* Remove top padding */
 }
 
 .Summary {
@@ -58,16 +67,18 @@ body {
     font-size: 4vh;
     z-index: 1;
     position: relative;
+    margin-top: 1vh;
 }
 
 .Summary.big {
     line-height: 1.1;
 }
+
 .Summary.small {
     line-height: 1.1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     .Summary {
         font-size: 2vh;
     }
@@ -77,24 +88,28 @@ body {
     }
 
     .fa-rocket {
-        font-size: 10vh !important; /* Reduce the size of the rocket */
+        font-size: 10vh !important;
+        /* Reduce the size of the rocket */
         color: var(--font-color);
         padding: 3rem;
         z-index: 2;
     }
 
-    .fa-splotch, .star1, .star2 {
-        display: none !important; /* Force hide the stars */
+    .fa-splotch,
+    .star1,
+    .star2 {
+        display: none !important;
+        /* Force hide the stars */
     }
 
     .fa-laptop-code {
-        font-size: 10vh !important; /* Adjust size of other elements as needed */
+        font-size: 20vh;
         color: var(--font-color);
         padding: 3rem;
         z-index: 2;
         position: absolute;
-        top: 5%;
-        left: 0%;
+        top: -220% !important;
+        left: 0% !important;
     }
 }
 
@@ -103,7 +118,8 @@ body {
     font-size: 30vh;
     color: var(--font-color);
     padding: 3rem;
-    z-index: 2;
+    z-index: 3;
+    position: absolute;
 }
 
 
@@ -112,36 +128,70 @@ body {
     color: var(--secondary-color);
     position: absolute;
     /* Position it absolutely */
-    z-index: 0;
+    z-index: 2;
     /* Ensure it's behind the text */
 }
 
 .star1 {
-    font-size: 90vh;
-    left: -45%;
+    font-size: 120vh;
+    left: -50vw;
     /* Move it partially off the container */
-    bottom: -80%;
+    bottom: -50%;
     /* Adjust as needed to position it */
-    transform: rotate(50deg);
+    transform: rotate(10deg);
 
 }
 
 .star2 {
     font-size: 200vh;
-    right: -105%;
+    right: -80vw;
     /* Move it partially off the container */
     bottom: -30%;
     /* Adjust as needed to position it */
     transform: rotate(40deg);
+    
 }
-.fa-laptop-code{
+
+.star3 {
+    font-size: 5vh;
+    color: var(--font-color);
+    right: 15%;
+    top: 15%;
+    z-index: 3;
+}
+
+.star4 {
+    font-size: 3vh;
+    color: var(--font-color);
+    right: 30%;
+    top: 10%;
+    z-index: 3;
+}
+
+.star5 {
+    font-size: 4vh;
+    color: var(--font-color);
+    right: 10%;
+    bottom: 35%;
+    z-index: 3;
+}
+.summary-laptop{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 5%;
+}
+
+.fa-laptop-code {
     font-size: 20vh;
     color: var(--font-color);
     padding: 3rem;
     z-index: 2;
     position: absolute;
-    top:5%;
-    left:0%;
+    top: -140%;
+    left: 1%;
 }
 
 
