@@ -1,24 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container, Nav, Navbar} from 'react-bootstrap'
+import { Container, Nav, Navbar } from 'react-bootstrap'
 
 const Header = () => {
     return (
 
-        <Navbar expand="md" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+        <Navbar expand="md" className="header-nav bg-body-tertiary" bg="dark" data-bs-theme="dark">
             <Container>
                 <Nav.Link as={Link} to="/website" style={{ color: 'whitesmoke' }}>
-                    <Navbar.Brand to="/website" className="header" style={{ color: 'whitesmoke' }}>Minh Cheng</Navbar.Brand>
+                    <b>
+
+                        <Navbar.Brand to="/website" className="header" style={{ color: 'whitesmoke' }}>M/<span style={{ color: '#17BEBB' }}>CHENG</span></Navbar.Brand>
+                    </b>
                 </Nav.Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav className="ml-auto">
-                        <Nav.Link as={Link} to="/project" className="header-link item2" style={{ color: 'whitesmoke' }}>
+                        <Nav.Link as={Link} to="/project" className="header-link" style={{ color: 'whitesmoke' }}>
                             Project
                         </Nav.Link>
-                        <Nav.Link as={Link} to="https://drive.google.com/file/d/1gCPK-aV-lvxpj9Sy0qXA7f7JZmgco4qa/view?usp=sharing" className="header-link item1" style={{ color: 'whitesmoke' }}>
+                        <Nav.Link as={Link} to="https://drive.google.com/file/d/1gCPK-aV-lvxpj9Sy0qXA7f7JZmgco4qa/view?usp=sharing" className="header-link" style={{ color: 'whitesmoke' }}>
                             Resume
-                            </Nav.Link>
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

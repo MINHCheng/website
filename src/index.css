@@ -1,8 +1,24 @@
+:root {
+    --main-body-font: 'Josefin Sans';
+    --font-color: #f5f5f5;
+    --main-color: #4D5359;
+    --secondary-color: #17BEBB;
+}
+
+body {
+    overflow: hidden;
+}
+
 /*                  NAVBAR               */
-.bg-body-tertiary {
-    background-color: #E5882C;
-    margin: 0 0 0 0;
-    padding: 0.6em 0;
+.header-nav {
+    padding: 2.5em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: var(--main-body-font);
+    color: var(--font-color) !important;
+    width: 100vw;
+    background-color: var(--main-color) !important;
 }
 
 .header {
@@ -15,57 +31,122 @@
 
 .header-link {
     margin-left: 1em;
+    font-size: 1rem;
 }
 
-@media (min-width: 768px) {
-    .header-link.item2 {
-        margin-left: 1em;
-    }
 
-    .header-link.item1 {
-        margin-right: .5em;
-    }
-
-}
 
 /*                  NAVBAR               */
 
 /*                HOMEPAGE                */
-.Homepage{
+.Homepage {
     justify-content: center;
-    align-items: center;
-}
-.Bigger-Container {
-
-    background-image: url('/public/images/blueblue.jpg');
-    background-size: cover;
-    background-position: center;
-    
-}
-.Homepage.firstContainer {
-    justify-content: center;
-    align-items: center;
-    display: inline-flexbox;
-    height: 50vh;
-    padding-top: 100px;
-
+    /* align-items: center; */
+    height: 90vh;
+    width: 100vw;
+    background-color: var(--main-color);
+    font-family: var(--main-body-font);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    position: relative;
 }
 
 .Summary {
     font-weight: bold;
-    font-size: 3rem;
-    text-align: center;
+    color: var(--font-color);
+    font-size: 4vh;
+    z-index: 1;
+    position: relative;
 }
 
-.Summary.AboutMe {
-    font-weight:normal;
-    font-size: 0.9rem;
-    text-align: center;
-    padding-top: 20px;
+.Summary.big {
+    line-height: 1.1;
 }
+.Summary.small {
+    line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+    .Summary {
+        font-size: 2vh;
+    }
+
+    .Homepage {
+        padding: 1.5rem;
+    }
+
+    .fa-rocket {
+        font-size: 10vh !important; /* Reduce the size of the rocket */
+        color: var(--font-color);
+        padding: 3rem;
+        z-index: 2;
+    }
+
+    .fa-splotch, .star1, .star2 {
+        display: none !important; /* Force hide the stars */
+    }
+
+    .fa-laptop-code {
+        font-size: 10vh !important; /* Adjust size of other elements as needed */
+        color: var(--font-color);
+        padding: 3rem;
+        z-index: 2;
+        position: absolute;
+        top: 5%;
+        left: 0%;
+    }
+}
+
+
+.fa-rocket {
+    font-size: 30vh;
+    color: var(--font-color);
+    padding: 3rem;
+    z-index: 2;
+}
+
+
+
+.fa-splotch {
+    color: var(--secondary-color);
+    position: absolute;
+    /* Position it absolutely */
+    z-index: 0;
+    /* Ensure it's behind the text */
+}
+
+.star1 {
+    font-size: 90vh;
+    left: -45%;
+    /* Move it partially off the container */
+    bottom: -80%;
+    /* Adjust as needed to position it */
+    transform: rotate(50deg);
+
+}
+
+.star2 {
+    font-size: 200vh;
+    right: -105%;
+    /* Move it partially off the container */
+    bottom: -30%;
+    /* Adjust as needed to position it */
+    transform: rotate(40deg);
+}
+.fa-laptop-code{
+    font-size: 20vh;
+    color: var(--font-color);
+    padding: 3rem;
+    z-index: 2;
+    position: absolute;
+    top:5%;
+    left:0%;
+}
+
 
 .Skills {
-    justify-content:space-evenly;    
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
     margin: 50px;
@@ -75,21 +156,22 @@
 /*                HOMEPAGE                */
 
 /*                PROJECTS                */
-.Projects{
+.Projects {
     padding: 50px;
 }
 
-.badge{
+.badge {
     justify-content: space-between;
     margin-right: 8px;
 }
-.ProjCard{
+
+.ProjCard {
     margin-top: 30px;
 }
-   
+
 
 /*                PROJECTS                */
 
-.ResumeContainer{
+.ResumeContainer {
     padding: 25px;
 }
