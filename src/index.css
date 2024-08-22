@@ -218,7 +218,9 @@ body {
 .ProjCard {
     margin-top: 30px;
 }
-
+.line{
+    stroke: var(--main-color);
+}
 
 /*                PROJECTS                */
 
