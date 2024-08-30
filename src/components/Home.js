@@ -13,6 +13,7 @@ const Home = () => {
         const spaceShuttle = document.querySelector('.fa-rocket');
         const shootingStar = document.querySelectorAll('.shooting');
         const laptop = document.querySelectorAll('.laptop');
+        const circ = document.querySelectorAll('.bubble');
 
         const t1 = gsap.timeline();
 
@@ -70,6 +71,8 @@ const Home = () => {
             ease: 'power1.inOut'
         });
 
+
+
     }, []);
 
     return (
@@ -77,7 +80,7 @@ const Home = () => {
             <div className="Homepage">
                 <Container className="">
                     {/* Space shuttle icon */}
-                    <i className="fa-solid fa-rocket fa-rotate-90 fa-2xl" style={{ opacity: '0' }}></i>
+                    {/* <i className="fa-solid fa-rocket fa-rotate-90 fa-2xl" style={{ opacity: '0' }}></i> */}
                     <div className="summary-laptop">
                         <div className="Summary big">
                             HELLO WORLD!
@@ -99,12 +102,12 @@ const Home = () => {
                     <i className="fa-solid fa-splotch shooting star5"></i>
 
                 </Container>
+                <i className="fa-solid fa-splotch star1"></i>
+                <i className="fa-solid fa-splotch star2"></i>
             </div>
-            <i className="fa-solid fa-splotch star1"></i>
-            <i className="fa-solid fa-splotch star2"></i>
-            <div className="Homepage">
+            {/* <div className="Homepage bottom-div">
                 <div className="bubble"></div>
-            </div>
+            </div> */}
         </>
     )
 }
