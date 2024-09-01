@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Container, Badge, Card, CardBody } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import gsap from "gsap";
 
 
 const Project = () => {

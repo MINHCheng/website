@@ -220,8 +220,8 @@ body {
 .Projectpage {
 
     align-items: center;
-    /* height: 82.5vh; */
-    height: 100vh;
+    width: auto;
+    height: 90vh;
     -webkit-overflow-scrolling: touch;
     background-color: var(--main-color);
     font-family: var(--main-body-font);
@@ -231,6 +231,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-y: hidden;
+    /* z-index: -1; */
 
 }
 
