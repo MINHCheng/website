@@ -17,7 +17,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav className="ml-auto">
                         <Nav.Link as={Link} to="/project" className="header-link" style={{ color: 'whitesmoke' }}>
-                            Project
+                            Personal Project
                         </Nav.Link>
                         <Nav.Link as={Link} to="https://drive.google.com/file/d/1gCPK-aV-lvxpj9Sy0qXA7f7JZmgco4qa/view?usp=sharing" className="header-link" style={{ color: 'whitesmoke' }}>
                             Resume

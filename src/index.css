@@ -221,7 +221,7 @@ body {
 
     align-items: center;
     /* height: 82.5vh; */
-    height: 100vh;
+    height: 85vh;
     -webkit-overflow-scrolling: touch;
     background-color: var(--main-color);
     font-family: var(--main-body-font);
