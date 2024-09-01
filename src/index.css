@@ -220,8 +220,8 @@ body {
 .Projectpage {
 
     align-items: center;
-    width: auto;
-    height: 90vh;
+    /* height: 82.5vh; */
+    height: 85vh;
     -webkit-overflow-scrolling: touch;
     background-color: var(--main-color);
     font-family: var(--main-body-font);
