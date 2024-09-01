@@ -7,15 +7,13 @@ import Project from "./components/Project";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Header />
-        <Routes>
-          <Route exact path='/' Component={Home} />
-          <Route exact path='/project' Component={Project} />
-          <Route exact path='/resume' Component={Resume} />
-        </Routes>
-      </div>
+    <BrowserRouter basename="/website">
+      <Header />
+      <Routes>
+        <Route exact path='/' Component={Home} />
+        <Route exact path='/project' Component={Project} />
+        <Route exact path='/resume' Component={Resume} />
+      </Routes>
     </BrowserRouter>
   );
 }
