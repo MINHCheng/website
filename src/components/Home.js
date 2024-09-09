@@ -90,7 +90,7 @@ const Home = () => {
                                 I'M <span className="letters">M</span><span className="letters">I</span><span className="letters">N</span><span className="letters">H,</span>
                             </div>
                         </b>
-                        <div className="Summary small">a second year <span style={{ color: '#17BEBB' }}>computer engineering</span> student</div>
+                        <div className="Summary small">a third year <span style={{ color: '#17BEBB' }}>computer engineering</span> student</div>
                         <div className="Summary small">at the University of <span style={{ color: '#17BEBB' }}>Waterloo.</span></div>
                         <i class="fa-solid fa-laptop-code laptop" ></i>
                     </div>
