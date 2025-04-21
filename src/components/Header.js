@@ -19,7 +19,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/project" className="header-link" style={{ color: 'whitesmoke' }}>
                             Personal Project
                         </Nav.Link>
-                        <Nav.Link as={Link} to="https://drive.google.com/file/d/12N3nP6Dm6j1XKSQTP64ecX8j7Br18baN/view?usp=sharing" className="header-link" style={{ color: 'whitesmoke' }}>
+                        <Nav.Link as={Link} to="https://drive.google.com/file/d/1UE8bo_Ym97umaFA2F09MpXxtmET_Zr35/view?usp=sharing" className="header-link" style={{ color: 'whitesmoke' }}>
                             Resume
                         </Nav.Link>
                     </Nav>
