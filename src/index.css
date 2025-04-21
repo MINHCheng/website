@@ -218,48 +218,30 @@ body {
 
 /*                PROJECTS                */
 .Projectpage {
-
+    display: flex;
+    flex-direction: column; /* Stack children top to bottom */
     align-items: center;
-    /* height: 82.5vh; */
-    height: 85vh;
-    -webkit-overflow-scrolling: touch;
+    height: auto;
+    overflow-y: auto; /* Enable vertical scroll */
+    overflow-x: hidden; /* Hide horizontal scroll */
     background-color: var(--main-color);
     font-family: var(--main-body-font);
-    display: flex;
-    flex-wrap: nowrap;
-    position: relative;
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
-    /* z-index: -1; */
-
 }
 
 .Projects {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column; /* Stack ProjCards vertically */
     align-items: center;
-    width: 400%;
-    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .ProjCard {
-    flex: 0 0 auto;
-    width: auto;
-    /* Ensure this is wide enough to require horizontal scrolling */
-    margin-right: 20px;
-    height: auto;
+    width: 90%; /* Adjust width so it doesn't overflow */
+    margin-bottom: 20px; /* Space between cards */
 }
 
-.bottom-footer {
-    margin-top: auto;
-
-}
-
-.badge {
-    justify-content: space-between;
-    margin-right: 8px;
-}
 
 
 /*                PROJECTS                */
