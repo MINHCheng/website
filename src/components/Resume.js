@@ -13,7 +13,7 @@ const Resume = () => {
                     To download my resume please click the button below.
                 </div>
                 <a
-                    href="https://drive.google.com/file/d/12N3nP6Dm6j1XKSQTP64ecX8j7Br18baN/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1UE8bo_Ym97umaFA2F09MpXxtmET_Zr35/view?usp=sharing"
                     className="btn btn-primary" role="button" target="_blank"
                 >
                     Resume
