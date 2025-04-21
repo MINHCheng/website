@@ -1,0 +1,251 @@
+:root {
+    --main-body-font: 'Josefin Sans';
+    --font-color: #f5f5f5;
+    --main-color: #4D5359;
+    --secondary-color: #17BEBB;
+}
+
+body {
+
+    margin: 0;
+
+
+}
+
+/*                  NAVBAR               */
+.header-nav {
+    padding: 2.5em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: var(--main-body-font);
+    color: var(--font-color) !important;
+    width: 100vw;
+    background-color: var(--main-color) !important;
+}
+
+.header {
+    display: flex;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.header-link {
+    margin-left: 1em;
+    font-size: 1rem;
+}
+
+
+
+/*                  NAVBAR               */
+
+/*                HOMEPAGE                */
+.Homepage {
+    justify-content: center;
+    /* align-items: center; */
+    height: 90vh;
+    width: 100vw;
+    background-color: var(--main-color);
+    font-family: var(--main-body-font);
+    display: flex;
+    flex-direction: column;
+    /* padding: 3rem; */
+    position: relative;
+    overflow: hidden !important;
+
+    margin: 0;
+    /* Ensure there's no margin */
+    padding: 0;
+    /* Remove top padding */
+}
+
+.Summary {
+    font-weight: bold;
+    color: var(--font-color);
+    font-size: 4vh;
+    z-index: 1;
+    position: relative;
+    margin-top: 1vh;
+}
+
+.Summary.big {
+    line-height: 1.1;
+}
+
+.Summary.small {
+    line-height: 1.1;
+}
+
+@media (max-width: 1080px) {
+    .Summary {
+        font-size: 2vh;
+    }
+
+    .Homepage {
+        padding: 1.5rem;
+        overflow: hidden;
+    }
+
+    .fa-rocket {
+        font-size: 10vh !important;
+        /* Reduce the size of the rocket */
+        color: var(--font-color);
+        padding: 3rem;
+        z-index: 2;
+    }
+
+    .fa-splotch,
+    .star1,
+    .star2 {
+        display: none !important;
+        /* Force hide the stars */
+    }
+
+    .fa-laptop-code {
+        font-size: 20vh;
+        color: var(--font-color);
+        padding: 3rem;
+        z-index: 2;
+        position: absolute;
+        top: -220% !important;
+        left: 0% !important;
+    }
+}
+
+
+.fa-rocket {
+    font-size: 30vh;
+    color: var(--font-color);
+    padding: 3rem;
+    z-index: 3;
+    position: absolute;
+}
+
+
+
+.fa-splotch {
+    color: var(--secondary-color);
+    position: absolute;
+    /* Position it absolutely */
+    z-index: 2;
+    /* Ensure it's behind the text */
+}
+
+.star1 {
+    font-size: 120vh;
+    left: -50vw;
+    /* Move it partially off the container */
+    bottom: -50%;
+    /* Adjust as needed to position it */
+    transform: rotate(10deg);
+
+}
+
+.star2 {
+    font-size: 200vh;
+    right: -80vw;
+    /* Move it partially off the container */
+    bottom: -30%;
+    /* Adjust as needed to position it */
+    transform: rotate(40deg);
+
+}
+
+.star3 {
+    font-size: 5vh;
+    color: var(--font-color);
+    right: 15%;
+    top: 15%;
+    z-index: 3;
+}
+
+.star4 {
+    font-size: 3vh;
+    color: var(--font-color);
+    right: 30%;
+    top: 10%;
+    z-index: 3;
+}
+
+.star5 {
+    font-size: 4vh;
+    color: var(--font-color);
+    right: 10%;
+    bottom: 35%;
+    z-index: 3;
+}
+
+.summary-laptop {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 5%;
+}
+
+.fa-laptop-code {
+    font-size: 20vh;
+    color: var(--font-color);
+    padding: 3rem;
+    z-index: 2;
+    position: absolute;
+    top: -140%;
+    left: 1%;
+}
+
+
+.Skills {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin: 50px;
+}
+
+.bubble {
+    width: 100px;
+    height: 100px;
+    background-color: var(--secondary-color);
+    left: 30vw;
+    position: absolute;
+    border-radius: 45%;
+}
+
+
+/*                HOMEPAGE                */
+
+/*                PROJECTS                */
+.Projectpage {
+    display: flex;
+    flex-direction: column; /* Stack children top to bottom */
+    align-items: center;
+    height: auto;
+    overflow-y: auto; /* Enable vertical scroll */
+    overflow-x: hidden; /* Hide horizontal scroll */
+    background-color: var(--main-color);
+    font-family: var(--main-body-font);
+    margin: 0;
+    padding: 0;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column; /* Stack ProjCards vertically */
+    align-items: center;
+    width: 100%;
+}
+
+.ProjCard {
+    width: 90%; /* Adjust width so it doesn't overflow */
+    margin-bottom: 20px; /* Space between cards */
+}
+
+
+
+/*                PROJECTS                */
+
+.ResumeContainer {
+    padding: 25px;
+}
