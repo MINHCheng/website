@@ -9,28 +9,30 @@ const Project = () => {
         <>
             <div className="Projectpage">
                 <Container className="Projects">
-                    <Card className="ProjCard" >
-                        <CardBody>
-                        <Link to="" style={{ textDecoration: 'none', color: '#4D5359' }}>
-                            <h1>Mean Reversion Strategy</h1>
-                        </Link>
+                    <CardBody>
+                    <Link to="" style={{ textDecoration: 'none', color: '#4D5359' }}>
+                        <h1>Mean Reversion Strategy</h1>
+                    </Link>
 
-                        <div className="badge">
-                            <Badge bg="secondary">Python</Badge>
-                            <Badge bg="secondary">MySQL</Badge>
-                            <Badge bg="secondary">Quant Research</Badge>
-                            <Badge bg="secondary">Ed Thorp</Badge>
-                        </div>
+                    <div className="badge">
+                        <Badge bg="secondary">Python</Badge>
+                        <Badge bg="secondary">MySQL</Badge>
+                        <Badge bg="secondary">Quant Research</Badge>
+                        <Badge bg="secondary">Ed Thorp</Badge>
+                    </div>
 
-                        <ul>
-                            <li>Studied works of Ed Thorp (hedge fund manager & mathematician) and designed a mean-reversion strategy inspired by his principles.</li>
-                            <li>Back-tested daily data from 1993–2015 using Python and MySQL, analyzing cumulative equity growth and risk-adjusted performance.</li>
-                            <li>Achieved ~500% total return over the test period, with a Sharpe ratio of 0.24.</li>
-                        </ul>
+                    <ul>
+                        <li>Researched the works of Ed Thorp (hedge fund manager & mathematician) and built a mean-reversion strategy based on his principles.</li>
+                        <li>Back-tested daily data from 1993–2015 using Python and MySQL, analyzing cumulative performance and risk metrics.</li>
+                        <li>Achieved ~1,000× total return, outperforming the benchmark by ~500% over the same period.</li>
+                        <li>Sharpe ratio of 0.24, reflecting high volatility despite strong long-term gains.</li>
+                    </ul>
 
-                        <Card.Footer className="bottom-footer">Sharpe: 0.24 • Total Return: 500%</Card.Footer>
-                        </CardBody>
-                    </Card>
+                    <Card.Footer className="bottom-footer">
+                        Sharpe: 0.24 • Total Return: ~1,000× • Excess vs. Benchmark: ~500%
+                    </Card.Footer>
+                    </CardBody>
+
                     <Card className="ProjCard" >
                         <CardBody>
                             <Link to="" style={{ textDecoration: 'none', color: '#4D5359' }}>
