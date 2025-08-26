@@ -28,9 +28,7 @@ const Project = () => {
                         <li>Sharpe ratio of 0.24, reflecting high volatility despite strong long-term gains.</li>
                     </ul>
 
-                    <Card.Footer className="bottom-footer">
-                        Sharpe: 0.24 • Total Return: ~1,000× • Excess vs. Benchmark: ~500%
-                    </Card.Footer>
+                    <Card.Footer className="bottom-footer">April 2025</Card.Footer>
                     </CardBody>
 
                     <Card className="ProjCard" >
