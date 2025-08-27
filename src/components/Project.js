@@ -25,7 +25,7 @@ const Project = () => {
                         <ul>
                             <li>Researched the works of Ed Thorp (hedge fund manager & mathematician) and built a mean-reversion strategy based on his principles.</li>
                             <li>Back-tested daily data from 1993–2015 using Python and MySQL, analyzing cumulative performance and risk metrics.</li>
-                            <li>Achieved ~1,000× total return, outperforming the benchmark by ~500% over the same period.</li>
+                            <li>Outperformed the benchmark by ~500% over the same period.</li>
                             <li>Sharpe ratio of 0.24, reflecting high volatility despite strong long-term gains.</li>
                         </ul>
 
